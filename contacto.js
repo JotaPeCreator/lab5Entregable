@@ -1,6 +1,3 @@
-function mostrarMensaje() {
-    alert("Hola! Bienvendios");
-}
 // Validación de formulario
 const form = document.getElementById('contactForm');
 form.addEventListener('submit', function(event) {
