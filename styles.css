@@ -1,27 +1,100 @@
-body{
+/* Estilo general */
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
     color: #333;
 }
-header{
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #4caf50;
+    text-align: center;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.5;
+    text-align: justify;
+    margin: 10px 20px;
+}
+
+/* Imagen */
+.imagen {
+    width: 150px;   /* más pequeña */
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+/* Enlaces */
+a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Listas */
+ul, ol {
+    margin: 20px;
+    padding-left: 30px;
+}
+li {
+    margin: 5px 0;
+}
+
+/* Tabla */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #4caf50;
+    padding: 8px 12px;
+}
+th {
     background-color: #4caf50;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
-h2{
-    color:#4caf50;
+
+/* Formulario */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
-ul{
-    list-style-type: none;
-    padding: 0;
+label {
+    display: block;
+    margin: 8px 0 4px;
 }
-ul li{
-    background-color: #c3bebe;
-    margin: 5px;
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4caf50;
+    color: white;
     padding: 10px;
-    border-radius: 5px;
-    
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+button:hover {
+    background-color: #45a049;
+}
+
