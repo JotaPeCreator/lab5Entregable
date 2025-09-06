@@ -11,3 +11,9 @@ form.addEventListener('submit', function(event) {
  alert('¡Formulario enviado correctamente!');
  }
 });
+// Evento extra: cambiar color de fondo
+const botonColor = document.getElementById('cambiarColor');
+botonColor.addEventListener('click', function() {
+    document.body.style.backgroundColor = '#e0f7fa'; // cambia a un azul claro
+    alert('¡Color de fondo cambiado!');
+});
