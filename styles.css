@@ -5,6 +5,12 @@ body{
     padding: 0;
     color: #333;
 }
+header{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 h2{
     color:#4caf50;
 }
